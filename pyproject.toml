@@ -1,0 +1,11 @@
+[project]
+name = "src2markdown"
+version = "0.1.0"
+description = "Aggregate source code and Markdown files into a single Markdown document."
+requires-python = ">=3.10"
+dependencies = [
+    "pathspec>=0.12.1",
+]
+
+[project.scripts]
+src2markdown = "src2markdown:main"
